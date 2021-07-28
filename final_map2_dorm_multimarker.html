@@ -1,0 +1,59 @@
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+        <title>simpleMap</title>
+        <script src="https://apis.openapi.sk.com/tmap/jsv2?version=1&appKey=l7xx70274b99653f4758bd19a73de3157599"></script>
+        <script type="text/javascript">
+			function initTmap(){
+				var map = new Tmapv2.Map("map_div",  
+				{
+					center: new Tmapv2.LatLng(37.587458,127.022940), // 지도 초기 좌표
+					width: "890px", 
+					height: "400px",
+					zoom: 15
+				});
+                
+                var marker = new Tmapv2.Marker({
+	              position: new Tmapv2.LatLng(37.589921,127.027381), 
+	              map: map, 
+	              offset : new Tmapv2.Point(12,38), 
+	              icon : 'pin.png', 
+	              iconSize : new Tmapv2.Size(24,38) 
+              });
+			  	var marker = new Tmapv2.Marker({
+	              position: new Tmapv2.LatLng(37.582161,127.02728), 
+	              map: map, 
+	              offset : new Tmapv2.Point(12,38), 
+	              icon : 'pin.png', 
+	              iconSize : new Tmapv2.Size(24,38) 
+              });
+			  	var marker = new Tmapv2.Marker({
+	              position: new Tmapv2.LatLng(37.582387,127.027997), 
+	              map: map, 
+	              offset : new Tmapv2.Point(12,38), 
+	              icon : 'pin.png', 
+	              iconSize : new Tmapv2.Size(24,38) 
+              });
+			 	 var marker = new Tmapv2.Marker({
+	              position: new Tmapv2.LatLng(37.585689,127.018398), 
+	              map: map, 
+	              offset : new Tmapv2.Point(12,38), 
+	              icon : 'pin.png', 
+	              iconSize : new Tmapv2.Size(24,38) 
+              });
+
+			} 
+		</script>
+         
+ 
+
+    </head>
+
+    <body onload="initTmap()">
+        <div id="map_div">
+        </div>    
+  
+    </body>
+
+    
+</html>	

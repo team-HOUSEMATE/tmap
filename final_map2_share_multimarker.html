@@ -1,0 +1,102 @@
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+        <title>simpleMap</title>
+        <script src="https://apis.openapi.sk.com/tmap/jsv2?version=1&appKey=l7xx70274b99653f4758bd19a73de3157599"></script>
+        <script type="text/javascript">
+			function initTmap(){
+				var map = new Tmapv2.Map("map_div",  
+				{
+					center: new Tmapv2.LatLng(37.588269,127.036295), // 지도 초기 좌표
+					width: "890px", 
+					height: "400px",
+					zoom: 15
+				});
+                
+                var marker = new Tmapv2.Marker({
+	              position: new Tmapv2.LatLng(37.588639,127.029343), 
+	              map: map,
+	              offset : new Tmapv2.Point(12,38), 
+	              icon : 'pin.png', 
+	              iconSize : new Tmapv2.Size(24,38) 
+              });
+			 	var marker = new Tmapv2.Marker({
+	              position: new Tmapv2.LatLng(37.588387,127.038924), 
+	              map: map,
+	              offset : new Tmapv2.Point(12,38), 
+	              icon : 'pin.png', 
+	              iconSize : new Tmapv2.Size(24,38) 
+              });
+				var marker = new Tmapv2.Marker({
+	              position: new Tmapv2.LatLng(37.589068,127.038878), 
+	              map: map,
+	              offset : new Tmapv2.Point(12,38), 
+	              icon : 'pin.png', 
+	              iconSize : new Tmapv2.Size(24,38) 
+              });
+			    var marker = new Tmapv2.Marker({
+	              position: new Tmapv2.LatLng(37.585763,127.018875), 
+	              map: map,
+	              offset : new Tmapv2.Point(12,38), 
+	              icon : 'pin.png', 
+	              iconSize : new Tmapv2.Size(24,38) 
+              });
+			  	var marker = new Tmapv2.Marker({
+	              position: new Tmapv2.LatLng(37.586937,127.033935), 
+	              map: map,
+	              offset : new Tmapv2.Point(12,38), 
+	              icon : 'pin.png', 
+	              iconSize : new Tmapv2.Size(24,38) 
+              });
+			  	var marker = new Tmapv2.Marker({
+	              position: new Tmapv2.LatLng(37.588693,127.03905), 
+	              map: map,
+	              offset : new Tmapv2.Point(12,38), 
+	              icon : 'pin.png', 
+	              iconSize : new Tmapv2.Size(24,38) 
+              });
+			  	var marker = new Tmapv2.Marker({
+	              position: new Tmapv2.LatLng(37.584549,127.029286), 
+	              map: map,
+	              offset : new Tmapv2.Point(12,38), 
+	              icon : 'pin.png', 
+	              iconSize : new Tmapv2.Size(24,38) 
+              });
+			  	var marker = new Tmapv2.Marker({
+	              position: new Tmapv2.LatLng(37.589401,127.037095), 
+	              map: map,
+	              offset : new Tmapv2.Point(12,38), 
+	              icon : 'pin.png', 
+	              iconSize : new Tmapv2.Size(24,38) 
+              });
+				var marker = new Tmapv2.Marker({
+	              position: new Tmapv2.LatLng(37.583877,127.031456), 
+	              map: map,
+	              offset : new Tmapv2.Point(12,38), 
+	              icon : 'pin.png', 
+	              iconSize : new Tmapv2.Size(24,38) 
+              });
+			 	var marker = new Tmapv2.Marker({
+	              position: new Tmapv2.LatLng(37.585139,127.031319), 
+	              map: map,
+	              offset : new Tmapv2.Point(12,38), 
+	              icon : 'pin.png', 
+	              iconSize : new Tmapv2.Size(24,38) 
+              });
+                
+				  
+			} 
+		</script>
+         
+ 
+
+    </head>
+
+    <body onload="initTmap()">
+        <div id="map_div">
+        </div>    
+  
+    </body>
+
+    
+</html>	
